@@ -1,0 +1,28 @@
+/* Section bannière */
+/*L'image de fond*/
+.banner {
+    background: url("/assets/Images/Entraide.jpg") center no-repeat;
+    background-size: cover;
+    border-bottom: 3px solid black;
+    height: 65vh;
+}
+/* Le texte sur la bannière */
+.banner-desc {
+    height: 2wh;
+    font-size: 2.5em;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.542);
+}
+.banner-desc span {
+    font-size: 1rem;
+}
+body > main > section.banner.pt-5 {
+    height: 95vh;
+}
+/* Section des deux images */
+.two-images {
+    background: url("/assets/Images/Aide.jpg") center center fixed no-repeat;
+    background-size: cover;
+    border-bottom: 5px solid black;
+    padding: 3rem;
+}

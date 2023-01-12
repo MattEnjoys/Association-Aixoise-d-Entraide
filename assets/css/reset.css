@@ -1,0 +1,85 @@
+/* Reset de la page */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+    font-size: 1rem;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+}
+ul {
+    list-style: none;
+}
+h5 {
+    font-size: 1.5em;
+}
+p {
+    font-size: 1em;
+}
+/* Navbar */
+/* Conteneur */
+.cc-navbar {
+    background: linear-gradient(60deg, #23613a, #85073e);
+    box-shadow: 1px 1px 30px black;
+    z-index: 99;
+}
+/* Titre Association Aixoise d'Entraide */
+.navbar-brand {
+    margin: 0;
+    color: black;
+}
+.navbar-brand:hover {
+    color: white;
+}
+/* Les trois onglets */
+.nav-link {
+    color: black;
+    border-bottom: 1px solid transparent;
+    transition: padding-bottom 0.4s ease-in-out, border-color 0.3s ease;
+}
+.nav-link:hover {
+    padding-bottom: 20px;
+    /* bs--teal est une  couleur native de Bootstrap */
+    border-bottom-color: var(--bs-teal);
+}
+/* L'onglet Contact */
+.btn-order {
+    color: white;
+    border-color: var(--bs-teal);
+    transition: 0.5s;
+}
+.btn-order:hover,
+.btn-order:focus,
+.btn-order:active {
+    color: white;
+    background-color: #23613a;
+}
+.nav-item {
+    text-align: center;
+}
+/*Les cards du site*/
+.cards {
+    border: 2px solid black;
+}
+/*Page evenement.css centrer les cartes*/
+.col-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+/* footer */
+.nav-links {
+    text-decoration: none;
+}
+/* Logos du footer */
+.logo-tel,
+.logo-mail,
+.logo-fb {
+    width: 10%;
+}
