@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <!--Métadonnées-->
+        <meta name="author" content="Matthieu Ebzant" />
+        <meta property="og:title" content="Association Aixoise d'entraide" />
+        <meta
+            property="og:description"
+            content="Site pour une association d'aide aux personnes en difficulté"
+        />
+        <meta property="og:url" content="https://aaentraide.com" />
+        <meta
+            property="og:image"
+            content="https://aaentraide.com/assets/Images/Logo"
+        />
+        <meta property="og:type" content="article" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link
+            rel="shortcut icon"
+            href="/assets/Images/Logo.jpg"
+            type="image/x-icon"
+        />
+        <!--Link de Fontawesome-->
+        <script
+            src="https://kit.fontawesome.com/15904ef487.js"
+            crossorigin="anonymous"
+        ></script>
+        <!-- Link Google Font -->
+        <link
+            href="https://fonts.googleapis.com/css?family=Quicksand&display=swap"
+            rel="stylesheet"
+        />
+        <!-- Link Bootstrap -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+            crossorigin="anonymous"
+        />
+        <!-- Link CSS -->
+        <link rel="stylesheet" href="/assets/css/reset.css" />
+        <link rel="stylesheet" href="/assets/css/evenements.css" />
+        <title>Association Aixoise d'Entraide</title>
+    </head>
+    <body>
+        <!-- Navbar de Bootstrap -->
+        <nav
+            class="cc-navbar navbar navbar-expand-lg navbar-dark position-fixed w-100"
+        >
+            <div class="container-fluid justify-content-space-between">
+                <a class="navbar-brand fw-bolder" href="/index.html"
+                    >Association Aixoise d'Entraide</a
+                >
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div
+                    class="collapse navbar-collapse"
+                    id="navbarSupportedContent"
+                >
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item pe-4">
+                            <a
+                                class="nav-link"
+                                aria-current="page"
+                                href="/index.html"
+                                >Qui sommes-nous ?</a
+                            >
+                        </li>
+                        <li class="nav-item pe-4">
+                            <a
+                                class="nav-link"
+                                href="/assets/html/permanences.html"
+                                >Nos permanences de soutien</a
+                            >
+                        </li>
+                        <li class="nav-item active pe-4">
+                            <a class="nav-link active" href="#">Evénements</a>
+                        </li>
+                        <li class="nav-item pe-4">
+                            <a
+                                class="btn btn-order"
+                                href="/assets/html/contact.html"
+                                >Contact</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Fin Navbar de Bootstrap -->
+
+        <!-- Section bannière -->
+        <section class="banner">
+            <!-- Titre du haut -->
+            <div class="cc-menu pt-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="card card-title-h5 text-center">
+                            <div class="card-body-h5">
+                                <h5 class="card-title-h5">
+                                    Notre collectif a répondu présent :
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Fin Titre du haut -->
+            <!-- Les évenenements -->
+            <div
+                class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-3 row-cols-xxl-3 m-5"
+            >
+                <!-- Card 1 -->
+                <div class="col col-center">
+                    <div class="ImageCard col-center m-3">
+                        <a
+                            href="/assets/Images/Solidaire.jpg"
+                            class="col-center"
+                        >
+                            <img
+                                src="/assets/Images/Solidaire.jpg"
+                                class="card-img-top"
+                                alt="solidarité"
+                        /></a>
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Lorem ipsum</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Et dolor molestias, ea
+                                voluptates consectetur
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fin Card 1 -->
+                <!-- Card 2 -->
+                <div class="col col-center">
+                    <div class="ImageCard col-center m-3">
+                        <a href="/assets/Images/Rugby.jpg" class="col-center">
+                            <img
+                                src="/assets/Images/Rugby.jpg"
+                                class="card-img-top"
+                                alt="rugby"
+                        /></a>
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Lorem ipsum</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Et dolor molestias, ea
+                                voluptates consectetur
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fin Card 2 -->
+                <!-- Card 3 -->
+                <div class="col col-center">
+                    <div class="ImageCard col-center m-3">
+                        <a
+                            href="/assets/Images/AuMarché.jpg"
+                            class="col-center"
+                        >
+                            <img
+                                src="/assets/Images/AuMarche.jpg"
+                                class="card-img-top"
+                                alt="Au_marche"
+                        /></a>
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Lorem ipsum</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Et dolor molestias, ea
+                                voluptates consectetur
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fin Card 3 -->
+                <!-- Card 4 -->
+                <div class="col col-center">
+                    <div class="ImageCard col-center m-3">
+                        <a
+                            href="/assets/Images/Destockage.jpg"
+                            class="col-center"
+                        >
+                            <img
+                                src="/assets/Images/Destockage.jpg"
+                                class="card-img-top"
+                                alt="destockage"
+                        /></a>
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Lorem ipsum</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Et dolor molestias, ea
+                                voluptates consectetur
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fin Card 4 -->
+                <!-- Card 5 -->
+                <div class="col col-center">
+                    <div class="ImageCard col-center m-3">
+                        <a href="/assets/Images/Plaza.jpg" class="col-center">
+                            <img
+                                src="/assets/Images/Plaza.jpg"
+                                class="card-img-top"
+                                alt="immo_plaza"
+                        /></a>
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Lorem ipsum</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Et dolor molestias, ea
+                                voluptates consectetur
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fin Card 5 -->
+                <!-- Card 6 -->
+                <div class="col col-center">
+                    <div class="ImageCard col-center m-3">
+                        <a
+                            href="/assets/Images/Octobre rose.jpg"
+                            class="col-center"
+                        >
+                            <img
+                                src="/assets/Images/Octobre rose.jpg"
+                                class="card-img-top"
+                                alt="octobre_rose"
+                        /></a>
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Lorem ipsum</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Et dolor molestias, ea
+                                voluptates consectetur
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fin Card 6 -->
+            </div>
+            <!-- Fin Les évenements -->
+        </section>
+        <!-- Fin Section Bannière -->
+
+        <!-- Footer -->
+        <footer class="footer text-center py-2 pt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+                        <h6 class="fs-5 text-decoration-underline">
+                            Suivez-nous
+                        </h6>
+                        <nav class="nav flex-column">
+                            <a
+                                href="https://www.facebook.com/Association.Aixoise.Entraide"
+                            >
+                                <img
+                                    src="/assets/Images/Facebook.png"
+                                    class="logo-fb py-2"
+                                    alt="Facebook"
+                            /></a>
+                            <a href="tel:+33479614963">
+                                <img
+                                    src="/assets/Images/Tel.png"
+                                    class="logo-tel py-2"
+                                    alt="telephone"
+                            /></a>
+                            <a href="mailto:asso.aixoise.entraide@orange.fr">
+                                <img
+                                    src="/assets/Images/Mail.png"
+                                    class="logo-mail py-2"
+                                    alt="Mail"
+                            /></a>
+                        </nav>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+                        <h6 class="fs-5 text-decoration-underline">
+                            Plan du site
+                        </h6>
+                        <nav class="nav flex-column">
+                            <a
+                                class="nav-links fs-6 text-secondary py-2"
+                                aria-current="page"
+                                href="#"
+                                >Qui sommes-nous ?</a
+                            >
+                            <a
+                                class="nav-links fs-6 text-secondary py-2"
+                                href="/assets/html/permanences.html"
+                                >Nos permanences de soutien</a
+                            >
+                            <a
+                                class="nav-links fs-6 text-secondary py-2"
+                                href="/assets/html/evenements.html"
+                                >Evénements</a
+                            >
+                        </nav>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+                        <h6 class="fs-5 text-decoration-underline">
+                            Liens utiles
+                        </h6>
+                        <nav class="nav flex-column">
+                            <a
+                                class="nav-links fs-6 text-secondary active py-2"
+                                aria-current="page"
+                                href="https://www.aixlesbains.fr/repertoire_annuaire/associations/Association-aixoise-d-entraide-A.A.E"
+                                target="_blank"
+                                >Ville d'Aix-Les-Bains</a
+                            >
+                            <a
+                                class="nav-links fs-6 text-secondary py-2"
+                                href="https://www.cylex-locale.fr/entreprises/association-aixoise-d%27entraide-13222570.html"
+                                target="_blank"
+                                >Cylex-local.fr</a
+                            >
+                            <a
+                                class="nav-links fs-6 text-secondary py-2"
+                                href="https://www.pagesjaunes.fr/pros/50194750"
+                                target="_blank"
+                                >Pages Jaunes</a
+                            >
+                        </nav>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+                        <h6 class="fs-5 text-decoration-underline">
+                            Liens utiles
+                        </h6>
+                        <nav class="nav flex-column">
+                            <a
+                                class="nav-links fs-6 text-secondary active py-2"
+                                aria-current="page"
+                                href="#"
+                                >Devenir bénévole</a
+                            >
+                            <a
+                                class="nav-links fs-6 text-secondary py-2"
+                                href="#"
+                                >Mentions légales</a
+                            >
+                            <a
+                                class="nav-links fs-6 text-secondary py-2"
+                                href="#"
+                                >Politique de confidentialité</a
+                            >
+                        </nav>
+                    </div>
+                    <div class="col-12 text-center">
+                        <i class="fa-regular fa-copyright"></i> Matthieu EBZANT,
+                        Tous droits réservés
+                        <!-- script js pour mettre automatiquement l'année à jour  -->
+                        <script>
+                            document.write(new Date().getFullYear());
+                        </script>
+                        Copyright
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Fin Footer-->
+        <!-- Link Bootstrap -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>

@@ -1,0 +1,22 @@
+/*L'image de fond*/
+.banner {
+    /* center center pour centrer en axe x et y et fixed pour fixer l'image et no-repeat */
+    background: url("/assets/Images/Evenement.jpg") center center fixed
+        no-repeat;
+    background-size: cover;
+    border-bottom: 3px solid black;
+    padding-top: 3rem;
+}
+
+/*Les conteneurs cards*/
+.card-body {
+    background-color: rgba(255, 255, 255, 0.542);
+    text-align: center;
+}
+/*Media querries*/
+/* A 991px je remonte le padding */
+@media screen and (min-width: 992px) {
+    .ImageCard {
+        width: 50%;
+    }
+}
