@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <!--Métadonnées-->
+        <meta name="author" content="Matthieu Ebzant" />
+        <meta property="og:title" content="Association Aixoise d'entraide" />
+        <meta
+            property="og:description"
+            content="Site pour une association d'aide aux personnes en difficulté"
+        />
+        <meta property="og:url" content="https://aaentraide.com" />
+        <meta
+            property="og:image"
+            content="https://aaentraide.com/assets/Images/Logo"
+        />
+        <meta property="og:type" content="article" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link
+            rel="shortcut icon"
+            href="/assets/Images/Logo.jpg"
+            type="image/x-icon"
+        />
+        <!--Link de Fontawesome-->
+        <script
+            src="https://kit.fontawesome.com/15904ef487.js"
+            crossorigin="anonymous"
+        ></script>
+        <!-- Link Google Font -->
+        <link
+            href="https://fonts.googleapis.com/css?family=Quicksand&display=swap"
+            rel="stylesheet"
+        />
+        <!-- Link Bootstrap -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+            crossorigin="anonymous"
+        />
+        <!-- Link CSS -->
+        <link rel="stylesheet" href="/assets/css/reset.css" />
+        <link rel="stylesheet" href="/assets/css/permanences.css" />
+        <title>Association Aixoise d'Entraide</title>
+    </head>
+    <body>
+        <header>
+            <!-- Navbar de Bootstrap -->
+            <nav
+                class="cc-navbar navbar navbar-expand-lg navbar-dark position-fixed w-100"
+            >
+                <div class="container-fluid justify-content-space-between">
+                    <a class="navbar-brand fw-bolder" href="/index.html"
+                        >Association Aixoise d'Entraide</a
+                    >
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div
+                        class="collapse navbar-collapse"
+                        id="navbarSupportedContent"
+                    >
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item pe-4">
+                                <a
+                                    class="nav-link"
+                                    aria-current="page"
+                                    href="/index.html"
+                                    >Qui sommes-nous ?</a
+                                >
+                            </li>
+                            <li class="nav-item active pe-4">
+                                <a class="nav-link active" href="#"
+                                    >Nos permanences de soutien</a
+                                >
+                            </li>
+                            <li class="nav-item pe-4">
+                                <a
+                                    class="nav-link"
+                                    href="/assets/html/evenements.html"
+                                    >Evénements</a
+                                >
+                            </li>
+                            <li class="nav-item pe-4">
+                                <a
+                                    class="btn btn-order"
+                                    href="/assets/html/contact.html"
+                                    >Contact</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- Fin Navbar de Bootstrap -->
+        </header>
+
+        <main>
+            <!-- Section bannière -->
+            <section class="banner d-flex">
+                <!-- Card 1 de Bootstrap -->
+                <div class="container">
+                    <div class="row row-cols-1 row-cols-md-2">
+                        <div class="col mb-3 pt-5">
+                            <div class="card cards h-100">
+                                <h5 class="card-title text-center">
+                                    Permanence alimentaire
+                                </h5>
+                                <img
+                                    src="/assets/Images/Marché.jpg"
+                                    class="card-img-top"
+                                    alt="permanence-alimentaire"
+                                />
+                                <div class="card-body text-center">
+                                    <p class="card-text">
+                                        Lundi, Mardi et Mercredi
+                                    </p>
+                                    <p class="card-text">10h30 - 12h15.</p>
+                                    <p class="card-text">
+                                        Pour les familles Ukrainiennes
+                                    </p>
+                                    <p class="card-text">
+                                        Vendredi 10h30 - 11h30.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Fin Card 1 de Bootstrap -->
+                        <!-- Card 2 de Bootstrap -->
+                        <div class="col mb-3 pt-5">
+                            <div class="card cards h-100">
+                                <h5 class="card-title text-center">
+                                    Permanence téléphonique
+                                </h5>
+                                <img
+                                    src="/assets/Images/Telephone.jpg"
+                                    class="card-img-top"
+                                    alt="permanence-telephonique"
+                                />
+                                <div class="card-body text-center">
+                                    <p class="card-text">
+                                        Lundi, Mardi et Mercredi
+                                    </p>
+                                    <p class="card-text">15h - 18h.</p>
+                                    <p class="card-text">
+                                        Jeudi et Vendredi 9h - 12h.
+                                    </p>
+                                    <p class="card-text">
+                                        La boutique est ouverte de 15h à 17h
+                                        tous les lundis.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fin Card 2 de Bootstrap -->
+            </section>
+            <!-- Fin Section Bannière -->
+            <!-- Section map -->
+            <section class="map d-flex align-items-center">
+                <!-- Suivez-nous -->
+                <div class="card card-logo m-3">
+                    <div class="card-body-logo">
+                        <h5
+                            class="card-title sendCard text-uppercase text-center text-decoration-underline pt-2"
+                        >
+                            Suivez-nous
+                        </h5>
+                        <ul
+                            class="logo d-flex justify-content-center align-items-center text-center"
+                        >
+                            <li class="logo-telephone">
+                                <a href="tel:+33479614963">
+                                    <img
+                                        src="/assets/Images/Tel.png"
+                                        class="logo-telephone"
+                                        alt="telephone"
+                                /></a>
+                            </li>
+                            <li class="logo-email">
+                                <a
+                                    href="mailto:asso.aixoise.entraide@orange.fr"
+                                >
+                                    <img
+                                        src="/assets/Images/Mail.png"
+                                        class="logo-email"
+                                        alt="Mail"
+                                /></a>
+                            </li>
+                            <li class="logo-facebook">
+                                <a
+                                    href="https://www.facebook.com/Association.Aixoise.Entraide"
+                                >
+                                    <img
+                                        src="/assets/Images/Facebook.png"
+                                        class="logo-facebook"
+                                        alt="Facebook"
+                                /></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Fin Suivez-nous -->
+                <!-- Map -->
+                <div class="pointer m-3">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2309.8320199955842!2d5.905493047356764!3d45.69452765768229!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478ba098a086f4b5%3A0xf0812346ca275378!2s32%20Rue%20des%20Pr%C3%A9s%20Riants%2C%2073100%20Aix-les-Bains!5e0!3m2!1sfr!2sfr!4v1671810951777!5m2!1sfr!2sfr"
+                        style="border: 0"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                    ></iframe>
+                </div>
+                <!-- Fin Map -->
+            </section>
+            <!-- Fin Section map -->
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer text-center py-2 pt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+                        <h6 class="fs-5 text-decoration-underline">
+                            Suivez-nous
+                        </h6>
+                        <nav class="nav flex-column">
+                            <a
+                                href="https://www.facebook.com/Association.Aixoise.Entraide"
+                            >
+                                <img
+                                    src="/assets/Images/Facebook.png"
+                                    class="logo-fb py-2"
+                                    alt="Facebook"
+                            /></a>
+                            <a href="tel:+33479614963">
+                                <img
+                                    src="/assets/Images/Tel.png"
+                                    class="logo-tel py-2"
+                                    alt="telephone"
+                            /></a>
+                            <a href="mailto:asso.aixoise.entraide@orange.fr">
+                                <img
+                                    src="/assets/Images/Mail.png"
+                                    class="logo-mail py-2"
+                                    alt="Mail"
+                            /></a>
+                        </nav>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+                        <h6 class="fs-5 text-decoration-underline">
+                            Plan du site
+                        </h6>
+                        <nav class="nav flex-column">
+                            <a
+                                class="nav-links fs-6 text-secondary py-2"
+                                aria-current="page"
+                                href="#"
+                                >Qui sommes-nous ?</a
+                            >
+                            <a
+                                class="nav-links fs-6 text-secondary py-2"
+                                href="/assets/html/permanences.html"
+                                >Nos permanences de soutien</a
+                            >
+                            <a
+                                class="nav-links fs-6 text-secondary py-2"
+                                href="/assets/html/evenements.html"
+                                >Evénements</a
+                            >
+                        </nav>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+                        <h6 class="fs-5 text-decoration-underline">
+                            Liens utiles
+                        </h6>
+                        <nav class="nav flex-column">
+                            <a
+                                class="nav-links fs-6 text-secondary active py-2"
+                                aria-current="page"
+                                href="https://www.aixlesbains.fr/repertoire_annuaire/associations/Association-aixoise-d-entraide-A.A.E"
+                                target="_blank"
+                                >Ville d'Aix-Les-Bains</a
+                            >
+                            <a
+                                class="nav-links fs-6 text-secondary py-2"
+                                href="https://www.cylex-locale.fr/entreprises/association-aixoise-d%27entraide-13222570.html"
+                                target="_blank"
+                                >Cylex-local.fr</a
+                            >
+                            <a
+                                class="nav-links fs-6 text-secondary py-2"
+                                href="https://www.pagesjaunes.fr/pros/50194750"
+                                target="_blank"
+                                >Pages Jaunes</a
+                            >
+                        </nav>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+                        <h6 class="fs-5 text-decoration-underline">
+                            Liens utiles
+                        </h6>
+                        <nav class="nav flex-column">
+                            <a
+                                class="nav-links fs-6 text-secondary active py-2"
+                                aria-current="page"
+                                href="#"
+                                >Devenir bénévole</a
+                            >
+                            <a
+                                class="nav-links fs-6 text-secondary py-2"
+                                href="#"
+                                >Mentions légales</a
+                            >
+                            <a
+                                class="nav-links fs-6 text-secondary py-2"
+                                href="#"
+                                >Politique de confidentialité</a
+                            >
+                        </nav>
+                    </div>
+                    <div class="col-12 text-center">
+                        <i class="fa-regular fa-copyright"></i> Matthieu EBZANT,
+                        Tous droits réservés
+                        <!-- script js pour mettre automatiquement l'année à jour  -->
+                        <script>
+                            document.write(new Date().getFullYear());
+                        </script>
+                        Copyright
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Fin Footer-->
+        <!-- Link Bootstrap -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>

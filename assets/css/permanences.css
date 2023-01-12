@@ -1,0 +1,58 @@
+/* Section bannière */
+/*L'image de fond*/
+.banner {
+    background: url("/assets/Images/Permanences.jpg") center fixed no-repeat;
+    background-size: cover;
+    border-bottom: 3px solid black;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 3rem;
+}
+/* Section map */
+/*L'image de fond*/
+.map {
+    background: url("/assets/Images/Map.jpg") center fixed no-repeat;
+    background-size: cover;
+    border-bottom: 3px solid black;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    padding: 1rem;
+}
+/* Suivez-nous */
+/* Le contenant */
+.card-logo {
+    background-color: rgba(255, 255, 255, 0.902);
+    width: 70%;
+}
+.logo {
+    padding: 0;
+}
+.logo-telephone,
+.logo-email,
+.logo-facebook {
+    width: 30%;
+}
+/*Carte*/
+iframe,
+.pointer {
+    padding: 1%;
+    width: 100%;
+}
+/* Medias Querries */
+/* A 768px je redimensionne la map et le "suivez-nous" */
+@media screen and (min-width: 768px) {
+    .row {
+        padding-bottom: 3%;
+    }
+    .card-logo {
+        width: 40%;
+    }
+    iframe,
+    .pointer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 80%;
+        height: 70vh;
+    }
+}
